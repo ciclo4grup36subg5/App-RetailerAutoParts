@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Productos"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgDiscoFreno"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/productos_freno" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtDiscoFreno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/disco_de_freno" />
+
+            <TextView
+                android:id="@+id/edtDiscoFrenoPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio: $ 150.000" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDiscoFreno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/comprar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgLlanta"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/productos_llanta" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtLlanta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/llanta" />
+
+            <TextView
+                android:id="@+id/edtLlantaPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio: $ 100.000" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLlanta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/comprar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgSuspension"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/productos_suspension" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtSuspension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/suspension" />
+
+            <TextView
+                android:id="@+id/edtSuspensionPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio: $ 100.000" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSuspension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/comprar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgMotor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/productos_motor" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtMotor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/motor" />
+
+            <TextView
+                android:id="@+id/edtMotorPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio: $ 8´000.000" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMotor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/comprar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgPastillas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/productos_pastillas" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtPastillas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/pastillas_de_freno" />
+
+            <TextView
+                android:id="@+id/edtPastillasPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio: $ 70.000" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPastillas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/comprar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgLuces"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/productos_luces" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtLuces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Luces Halogenas" />
+
+            <TextView
+                android:id="@+id/edtLucesPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio: 120.000" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLuces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/comprar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

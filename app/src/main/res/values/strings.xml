@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RetailerAutoParts</string>
+    <string name="vistaBienvenida">Bienvenida</string>
+    <string name="vista1">Productos</string>
+    <string name="vista2">Servicios</string>
+    <string name="vista3">Sucursales</string>
+    <string name="bienvenida">Bienvenido a la App de RetailerAutoParts</string>
+    <string name="motor">Motor</string>
+    <string name="comprar">Comprar</string>
+    <string name="pastillas_de_freno">Pastillas de Freno</string>
+    <string name="suspension">Suspension</string>
+    <string name="luces">Luces Halogenas</string>
+    <string name="luces_halogenas">Luces Halogenas</string>
+    <string name="disco_de_freno">Disco de Freno</string>
+    <string name="llanta">Llanta</string>
+    <string name="principal">Principal</string>
+    <string name="principal_sede">Centro Comercial Iserra</string>
+    <string name="dir_principal">Calle 100 # 55-21 Local: 106</string>
+    <string name="tel_principal">Teléfono: 2369108</string>
+    <string name="email_principal">Email: ventas_100@gmail.com</string>
+    <string name="ciudad">Bogotá D.C.</string>
+    <string name="suc_1">Sucursal Av. Chile</string>
+    <string name="dir_suc_1">Calle 72 # 26-45</string>
+    <string name="tel_suc_1">Teléfono: 2453657</string>
+    <string name="email_suc_1">Email: ventas_av.chile@gmail.com</string>
+    <string name="suc_2">Sucursal Siete de Agosto</string>
+    <string name="dir_suc_2">Calle 63D # 24-78</string>
+    <string name="tel_suc_2">Teléfono: 3488578</string>
+    <string name="email_suc_2">Email: ventas_7deagosto@gmail.com</string>
+    <string name="txt_titulo_servicios">Servicio al Cliente</string>
+    <string name="txt_servicio_1">Importaciones</string>
+
+
+</resources>

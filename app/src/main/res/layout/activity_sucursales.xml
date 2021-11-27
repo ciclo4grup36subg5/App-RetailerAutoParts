@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sucursales">
+
+
+    <TextView
+        android:id="@+id/txt_principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/principal" />
+
+    <TextView
+        android:id="@+id/txt_sede_princ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/principal_sede" />
+
+    <TextView
+        android:id="@+id/txt_dir_princ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/dir_principal" />
+
+    <TextView
+        android:id="@+id/txt_tel_princ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/tel_principal" />
+
+    <TextView
+        android:id="@+id/txt_email_princ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/email_principal" />
+
+    <TextView
+        android:id="@+id/txt_ciudad_princ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/ciudad" />
+
+    <TextView
+        android:id="@+id/txt_suc_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/suc_1"/>
+
+    <TextView
+        android:id="@+id/txt_dir_suc_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/dir_suc_1" />
+
+    <TextView
+        android:id="@+id/txt_tel_suc_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/tel_suc_1" />
+
+    <TextView
+        android:id="@+id/txt_email_suc_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/email_suc_1" />
+
+    <TextView
+        android:id="@+id/txt_ciudad_suc_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/ciudad" />
+
+    <TextView
+        android:id="@+id/txt_suc_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/suc_2" />
+
+    <TextView
+        android:id="@+id/txt_dir_suc_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/dir_suc_2" />
+
+    <TextView
+        android:id="@+id/txt_tel_suc_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/tel_suc_2" />
+
+    <TextView
+        android:id="@+id/txt_email_suc_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/email_suc_2" />
+
+    <TextView
+        android:id="@+id/txt_ciudad_suc_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="80dp"
+        android:text="@string/ciudad" />
+
+
+</LinearLayout>
